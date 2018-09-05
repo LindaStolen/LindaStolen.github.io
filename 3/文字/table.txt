@@ -1,0 +1,23 @@
+<table>
+                    <tr>
+                        <th>Basic</th>
+                    </tr>
+                    <tr>
+                        <td>10GB Storage</td>
+                    </tr>
+                    <tr>
+                        <td>10 Emails</td>
+                    </tr>
+                    <tr>
+                        <td>10 Domains</td>
+                    </tr>
+                    <tr>
+                        <td>Endless Support</td>
+                    </tr>
+                    <tr>
+                        <td>$ 10 <p>per month</p></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"class="btn">Sign Up</a></td>
+                    </tr>
+                </table>

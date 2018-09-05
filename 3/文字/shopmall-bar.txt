@@ -1,0 +1,16 @@
+<div class="pic">
+            <a href="#" class="left btn"><i class="fas fa-chevron-circle-left"></i></a>
+            <img src="images/ph_left.jpg" alt="">
+        </div>
+        <div class="pic col-d-12">
+            <img src="images/ph_center.jpg" alt="">
+            <div class="message">
+                <h4>SHIELD</h4>
+                <h3>內建藍芽音響 大空間/有型/防潑水</h3>
+                <a href="#" class="btn">搖滾音響防盜後背包</a>
+            </div>
+        </div>
+        <div class="pic">
+                <a href="#" class="right btn"><i class="fas fa-chevron-circle-right"></i></a>
+                <img src="images/ph_right.jpg" alt="">
+            </div>

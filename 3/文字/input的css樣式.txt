@@ -1,0 +1,11 @@
+改變 多個input的其中一個樣式，可以在css這樣寫:
+
+input[type="指定的input"] {
+	/ 正常css寫法 /
+}
+
+改變 input的placeholder文字的樣式，則是這樣寫:
+
+input[type="指定的input"]::-webkit-input-placeholder {
+	/ 正常css寫法 /
+}
