@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 600px;
+            height: 300px;
+            background-color: #9e9d9d;
+            font-size: 0px;
+        }
+        .container::before {
+            content:"";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            /* 他在哪邊? */
+        }
+        .picture {
+            /* width: 200px; */
+            /* height: 200px; */
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 10px;
+        }
+        .content {
+            width: 350px;
+            
+            display: inline-block;
+            vertical-align: middle;
+
+            font-size: 16px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="picture">
+            <img src="http://source.unsplash.com/random/200x200" alt="">
+        </div>
+        <div class="content">
+            <h1>Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia quaerat vitae eos. Dignissimos quae provident pariatur numquam sit dolore harum soluta consequatur in expedita itaque quasi, impedit cupiditate cum! Magnam numquam eligendi error nam tempore, sed quaerat voluptate rem laboriosam voluptatibus ipsa hic quam deleniti, odit sint fugit minima.</p>
+        </div>
+    </div>
+</body>
+</html>

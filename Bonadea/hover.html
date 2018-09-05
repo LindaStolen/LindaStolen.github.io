@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+        .container {
+            width: 1200px;
+            height: 600px;
+            background-color: #afe;
+            text-align: center;
+        }
+
+        .box-1 {
+            width: 300px;
+            height: 350px;
+            float: left;
+            position: relative;
+            background-color: #aaa;
+            overflow: hidden;
+            transition: all .3s ease-in-out;
+        }
+        .box-1:hover {
+            transform: translateX(300px);
+            transition-delay: .1s;
+        }
+        .box-1:hover .mask {
+            transform: translateX(0px);
+        }
+        .box-2 {
+            width: 300px;
+            height: 350px;
+            float: left;
+            position: relative;
+            background-color: #bbb;
+            overflow: hidden;
+        }
+        .box-3 {
+            width: 300px;
+            height: 350px;
+            float: left;
+            position: relative;
+            background-color: #ccc;
+            overflow: hidden;
+        }
+        .mask {
+            width: 300px;
+            height: 350px;
+            float: left;
+            position: absolute;
+            transform: translateX(-300px);
+            background-color: rgba(255, 255, 255, 0.5);
+            transition: all .4s ease-in-out;
+        }
+        a {
+            display: inline-block;
+            line-height: 350px;
+            text-decoration: none;
+            color: rgb(255, 196, 0);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Title</h2>
+        <div class="box-1">
+                <div class="mask">
+                        <a href="#">AAA</a>
+                </div>
+        </div>
+        
+        <div class="box-2">
+                <div class="mask">
+                        <a href="#">BBB</a>
+                </div>
+        </div>
+        
+        <div class="box-3">
+            <div class="mask">
+                <a href="#">CCC</a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

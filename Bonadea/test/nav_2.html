@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        nav {
+            width: 1280px;
+            height: 700px;
+            background-image: url(http://source.unsplash.com/random/1280x700);
+            background-repeat:no-repeat;
+            margin: auto;
+            text-align: center;
+            
+        }
+        
+        nav::before {
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle
+        }
+        
+        nav .logo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);            
+            }
+        nav a {
+            text-decoration: none;
+            color: #493000;
+        }
+        
+        nav .login {
+           
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="#">Logo</a></div>
+        <div class="login">
+            <a href="#">新手註冊｜會員登入</a>
+        </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 960px;
+            margin: auto;
+
+            background-color: #e04;
+        }
+        .box {
+            width: calc(100% / 3);
+            float: left;
+            padding: 15px;
+            background-color: #ffcccc;
+        }
+        .clearfix::after {
+            content: "為甚麼啊";
+            display: block;
+            /* clear: both; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container clearfix">
+        <div class="box">
+            <h1>Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non unde natus repudiandae? Aspernatur fugit id quam ex cum debitis culpa officia nobis, ad eius exercitationem omnis blanditiis corporis alias ullam qui! Cupiditate, tenetur unde! Laboriosam quos, nisi qui, eligendi adipisci earum vel dolor dolorem odio illo ducimus exercitationem tenetur commodi! Dolorem ea nesciunt inventore at doloribus error ab nam, voluptate odio cumque repellat blanditiis omnis porro saepe nobis minus repudiandae excepturi voluptatem voluptas nisi sit? Minus labore odio quaerat obcaecati itaque nulla qui debitis mollitia veniam esse sit quas fugit, perferendis, et dolorem distinctio fugiat ut sunt ipsa alias? Placeat?</p>
+        </div>
+        <div class="box">
+            <h1>Title</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia neque aperiam fugiat sint est repellendus, cum quidem, corrupti illum rem, similique nulla. Veritatis facere qui officiis quasi eligendi alias, praesentium minus aspernatur hic iusto dolorem esse autem suscipit? Ullam saepe commodi facilis libero at doloribus nobis aspernatur iusto? Voluptatum?</p>
+        </div>
+        <div class="box">
+            <h1>Title</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia neque aperiam fugiat sint est repellendus, cum quidem, corrupti illum rem, similique nulla. Veritatis facere qui officiis quasi eligendi alias, praesentium minus aspernatur hic iusto dolorem esse autem suscipit? Ullam saepe commodi facilis libero at doloribus nobis aspernatur iusto? Voluptatum?</p>
+        </div>
+    </div>
+</body>
+</html>

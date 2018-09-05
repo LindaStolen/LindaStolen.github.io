@@ -1,0 +1,270 @@
+nav {
+    background-image: url(../images/julia-caesar-15078-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    margin: auto;
+    padding-top: 100px;
+}
+        
+nav .logo {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    }
+nav .logo a {
+    width: 270px;
+    margin: auto;
+    padding-top: 20px;
+}
+nav a {
+    line-height: 300px;
+    }
+
+nav .login {
+    text-align: center;
+    color: #fff;
+}
+nav .login a {
+    font-size:20px;
+    color: #fff;
+}
+nav .login a:hover {
+    color: #aa17ff;
+}
+
+.box {
+    width: 1280px;
+    height: 60px;
+    background-image: linear-gradient(60deg,#00b118,#b3ff5d);
+    line-height: 60px;
+    text-align: center;
+    margin: auto;
+}
+.box ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+}
+.box li {
+    height: 60px;
+    list-style: none;
+    display: inline-block;
+    padding: 0 35px;
+    transition: all .3s;
+}
+.box li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.box a {
+    color: #359100;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: all .3s;
+}
+
+.box a:hover {
+     color: #034d00;
+}
+
+/* product */
+.product {
+    width: 1280px;
+    height: 700px;
+    margin: auto;
+    background-color: #d9ff9b;
+    padding: 150px 0 150px;
+}
+.hotgoods {
+    width: 400px;
+    height: 450px;
+    float: left;
+    text-align: center;
+    margin: 0 0 0 150px;
+}
+h2 {
+    color: #814500;
+    padding: 20px 0 20px;
+    letter-spacing: 2px;
+}      
+.hotNo1 {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.hotNo1 a {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    color: #008a17;
+    font-weight: 750;
+}
+.hotNo2 {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.hotNo2 a {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: #008a17;
+    font-weight: 750;
+}
+.news {
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+/* 顧問群 */
+.teacher_g {
+    width: 1280px;
+    height: 500px;
+    margin: auto;
+    background-color: #93dd8d;
+    text-align: center;
+}
+h1 {
+    color: #004b04;
+    padding: 80px 0 10px;
+    margin-bottom: 40px;
+    letter-spacing: 8px;
+}
+.mask {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.teacher-1 {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+}
+.teacher-2 {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 0 65px;
+}
+.teacher-3 {
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+
+.teacher_g a {
+    font-size: 20px;
+    color: #ff4800;
+    padding: 10px;
+}
+
+/* footer */
+.footer {
+    width: 1280px;
+    height: 600px;
+    background-color: #e9ff6c;
+    margin: auto;
+    text-align: center;
+}
+
+.contactus {
+    width: 550px;
+    height: 400px;
+    float: left;
+    margin: 100px 60px;
+}
+.apple_code {
+    width: calc(500px / 3);
+    height: 250px;
+    float: left;
+}
+.line_code {
+    width: calc(500px / 3);
+    height: 250px;
+    float: left;
+    margin: 0 5px;
+}
+.google_code {
+    width: calc(500px / 3);
+    height: 250px;
+    float: left;
+}
+
+.contactus p {
+    margin: 15px 0;
+    font-size: 1.2em;
+    font-weight: 550;
+    clear: both;
+}
+
+.question {
+    width: 550px;
+    height: 500px;
+    float: left;
+    margin: 100px 0 0 0px;
+}
+/* .question div {
+    float: left;
+    margin: calc(40px / 3)px 0;
+    border-radius: 50%;
+    overflow: hidden;
+} */
+.all {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+}
+/* .money  {
+    float: left;
+    margin: 10px;
+}
+.deliver  {
+    float: left;
+    margin: 10px;
+}
+.change  {
+    float: left;
+    margin: 10px;
+}
+.share  {
+    float: left;
+    margin: 10px;
+} */
+.question a{
+    width: 100px;
+    line-height: 100px;
+    background-image:linear-gradient(30deg,#6bc0f8,#ffffff96);
+    color: #fff;
+    float: left;
+    margin: 10px;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    transition: all .5s;
+}
+.question a:hover {
+    background-image:linear-gradient(210deg,#6bc0f8,#ffffff96);
+    border-radius: 50%;
+    color: rgb(6, 0, 97);
+}
+/* copyright */
+.copyRight {
+    width: 1280px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient( #cccccc,#d6d6a3);
+}

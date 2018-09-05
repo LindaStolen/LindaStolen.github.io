@@ -1,0 +1,201 @@
+:root {
+    --primaryColor: #9900ff;
+}
+
+#container {
+    background-image: url(../images/julia-caesar-15078-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#container .home {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255,.5);
+    border-radius: 50%;
+    padding: 25px;
+}
+#container .login .btn {
+    color: #ffffff;
+    font-size: 20px;
+    transform: all , .4;
+}
+#container .btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    font-weight: 700;
+}
+
+/* nav */
+nav {
+    padding-top: 10px;
+    padding-bottom: 10pt;
+    background-image: linear-gradient(30deg,#bb005565,#bb0055);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+nav li a {
+    padding: 0 35px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    transform: all .4;
+}
+nav li a:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+}
+nav li i {
+    padding-right: 3px;
+}
+/* product */
+#product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#product .hotgoods {
+    text-align: center;
+    padding: 10px 50px;
+}
+#product h2 {
+    letter-spacing: 2px;
+    font-size: 28px;
+    color: rgb(78, 44, 0);
+    padding-bottom: 30px;
+}
+#product .hotNo1 {
+    padding: 0;
+    font-size: 0px;
+}
+#product .hotNo1 a {
+    display: block;
+    color: #fff;
+    line-height:50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #920049;
+}
+#product .news {
+    /* overflow: hidden; */
+    display: inline-block;
+    padding: 50px;
+}
+/* teacher_g */
+#teacher_g {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(45deg,#660033,#66004366);
+    text-align: center;
+}
+#teacher_g h1 {
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+#teacher_g .teacher {
+    padding-left: 50px;
+    padding: 50px;
+}
+#teacher_g .mask {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#teacher_g .teacher a {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* contactus  */ 
+#contactus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#contactus .col-6 {
+    text-align: center;
+}
+#contactus h2 {
+    letter-spacing: 2px;
+    font-size: 28px;
+    color: rgb(78, 44, 0);
+    padding-bottom: 30px;
+}
+#contactus .col-4 p {
+    font-size: 18px;
+    color: #aaaaaa;
+}
+#contactus .col-12 p {
+    line-height: 40px;
+    font-size: 20px;
+}
+#contactus .question .btn {
+    padding: 0 180px;
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 0;
+}
+#contactus .question a {
+    width: 100px;
+    line-height: 100px;
+    /* border-radius: 50%; */
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin: 10px;
+    /* margin-bottom: 15px; */
+    background-image: linear-gradient(30deg,#990040,#c70063);
+
+    transform: all .6;
+}
+#contactus .question a:hover {
+    /* width: 150px; */
+    /* line-height: 150px; */
+    border-radius: 50%;
+    background-image: linear-gradient(-150deg,#e6bcff55,#cc00ff55);
+    color: #770000;
+}
+.toTop {
+    position: fixed;
+    right: 20px;  
+    bottom: 50px;  
+    background-color: #ff9fd7;
+    width: 50px;
+    height: 50px;
+    /* padding: 4px; */
+    text-align: center;
+    border-radius: 50%;
+    font-size: 0;
+}
+.toTop i {
+    display:block;
+    font-size: 8px;
+    color: #b1006d;
+    padding-top: 10px;
+}
+.toTop a {
+    font-size: 17px;
+    font-weight: 700;
+    color: #b1006d;
+    display: block;
+    line-height: .6;
+}
+
+/* copyRight */
+#copyRight .fixed-width {
+    background-image: linear-gradient(#660011,#770022);
+    text-align: center;
+    color: #fff;
+}
