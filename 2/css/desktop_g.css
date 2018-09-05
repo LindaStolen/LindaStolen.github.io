@@ -197,7 +197,7 @@ header {
     padding-bottom: 80px;
     background-image: 
     linear-gradient(rgba(255, 112, 112,.3),rgba(255, 112, 112,.3)),
-    url(images/photo-1532197894789-9865bcdbc277.jpg);
+    url(../images/photo-1532197894789-9865bcdbc277.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -232,7 +232,7 @@ header {
     padding-bottom: 50px;
     background-image: 
     linear-gradient(rgba(92, 92, 92, 0.6),rgba(92, 92, 92, 0.6)),
-    url(images/photo-1532348854900-2b544bcf012f.jpg);
+    url(../images/photo-1532348854900-2b544bcf012f.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -298,7 +298,7 @@ header {
     padding-bottom: 50px;
     background-image: 
     linear-gradient(rgba(124, 124, 124, 0.5),rgba(124,124,124,.5)),
-    url(images/photo-1532645629974-4c547567dccc.jpg);
+    url(../images/photo-1532645629974-4c547567dccc.jpg);
 }
 #search .line-light {
     color: #fff;
