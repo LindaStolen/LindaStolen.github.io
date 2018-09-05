@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Slab:400,700&subset=cyrillic,vietnamese');
+
+html, body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato","Roboto Slab","微軟正黑體";
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
+.full-width {
+    width: 100%;
+}
+.fixed-width {
+    width: 1280px;
+    margin: auto;
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+[class*="col"] {
+    float: left;
+    padding: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
