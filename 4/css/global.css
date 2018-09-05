@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800|Work+Sans:400,500,600,700,800');
+html, body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Muli","Work Sans","微軟正黑體";
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
+.full-width {
+    width: 100%;
+}
+.fixed-width {
+    width: 1200px;
+    margin: auto;
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+[class*="col"] {
+    float: left;
+    padding: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
