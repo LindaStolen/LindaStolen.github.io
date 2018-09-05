@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Nunito+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+
+:root {
+    --primaryColor: #00bd74;
+    --secondColor: #555555;
+}
+* {
+    font-family: "Noto Sans","Nunito Sans","微軟正黑體";
+}
+/* nav */
+nav {
+    height: 120px;
+    background-color: #fff;
+    /* border-bottom: 1px solid #aaa; */
+    position: fixed;
+    z-index: 9999;
+}
+nav .n-1 {
+    height: 70px;
+    border-bottom: .5px solid #aaa;
+}
+nav .logo {
+    float: left;
+    font-size: 45px;
+    line-height: 70px;
+    height: 70px;
+    padding: 0px 20px;
+    word-spacing: 2px;
+}
+nav .n-1 .logo b {
+    color: #00bd74;
+    font-weight: 300;
+}
+nav .n-1 .logo small {
+    font-size: 22px;
+    font-weight: 700;
+}
+nav ul {
+    float: right;
+    line-height: 70px;
+    height: 70px;
+    padding-right: 10px;
+}
+nav li {
+    line-height: 70px;
+    float: left;
+    padding: 0 10px;
+}
+nav li a {
+    color: #949494;
+    line-height: 70px;
+    font-size: 28px;
+}
+nav ul .country  {
+    font-size: 18px;
+}
+nav ul .country i {
+    padding-left: 20px;
+
+}
+nav .n-2 {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+nav a {
+    padding: 0 15px;
+    color: #949494;
+}
+nav a:hover {
+    color: #00bd74;
+}
+/* bar */
+#bar {
+    /* background-image: url(images/bar.jpg); */
+    background-image: url(https://source.unsplash.com/random/1300x700);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url(images/bar.jpg); */
+    padding-top: 120px;
+
+    /* position: relative; */
+}
+#bar .full-width .btn {
+    float: left;
+    font-size: 50px;
+    color: #fff;
+    line-height: 480px;
+}
+#bar .full-width .right {
+    float: right;
+    padding-right: 20px;
+    padding-left: 170px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#bar .btn i {
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px #555;
+}
+#bar .full-width .left {
+    padding-right: 170px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#bar .text .message {
+    padding: 80px 100px;
+    /* line-height: 45px; */
+}
+#bar .text h4 {
+    padding: 5px 0;
+    font-size: 40px;
+    color: #fff;
+}
+#bar .text h3 {
+    padding: 0px 0 5px 0;
+}
+#bar .text a {
+    line-height: 30px;
+    background-color: var(--primaryColor);
+    padding: 0 8px;
+    color: #FFF;
+    font-weight: 200;
+}
+/* top100 */
+#top100 {
+    padding: 20px 0 50px;
+    text-align: center;
+    border-bottom: .5px solid #ccc;
+}
+#top100 .title h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: inline-block;
+    word-spacing: 2px;
+    color: #000;
+    border-bottom: 2px solid var(--primaryColor);
+}
+#top100 .title .go h2:hover {
+    color: var(--primaryColor);
+}
+#top100 .title .btn {
+    color: var(--primaryColor);
+    float: right;
+    line-height: 80px;
+}
+#top100 .col-d-3 {
+    height: 100%;
+}
+#top100 .col-d-12 {
+    padding: 0;
+}
+#top100 .col-d-12 .name {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #aaa;
+    text-align: left;
+    height: 50px;
+}
+#top100 .col-d-12 .price {
+    color: #aaa                                                                                                                                                                                                                                                                                               ;
+    font-size: 16px;
+    padding-top: 10px;
+} 
+/* limitTime */
+#limitTime {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    text-align: center;
+    border-bottom: .5px solid #ccc;
+}
+#limitTime .title h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: inline-block;
+    word-spacing: 2px;
+    color: #000;
+    border-bottom: 2px solid var(--primaryColor);
+}
+#limitTime .product {
+    text-align: left;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#limitTime .product .btn {
+    width: 97%;
+    padding: 0 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 25px;
+}
+#limitTime .product .btn h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+}
+#limitTime .product .btn p {
+    display: inline-block;
+    /* float: left; */
+}
+#limitTime .product .btn .date {
+    float: right;
+}
+/* goodtools */
+#goodTools {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: .5px solid #ccc;
+}
+#goodTools .title h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: inline-block;
+    word-spacing: 2px;
+    color: #000;
+    border-bottom: 2px solid var(--primaryColor);
+}
+#goodTools .title .go h2:hover {
+    color: var(--primaryColor);
+}
+#goodTools .pic {
+    /* height: 200px; */
+    position: relative;
+}
+#goodTools .pic .buyNow {
+    background-color: var(--primaryColor);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 15px 0;
+    word-spacing: 3px;
+}
+#goodTools .pic .buyNow:hover {
+    background-color: #ffffff80;
+    color: var(--primaryColor);
+}
+#goodTools .text {
+    padding: 10px 0;
+}
+#goodTools .text .btn {
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 10px;
+}
+#goodTools .text .country {
+    color: rgba(0, 0, 0, 0.493);
+    padding-bottom: 5px;
+}
+#goodTools .text .name {
+    font-weight: 200;
+    color: #000;
+}
+#goodTools .product span {
+    text-decoration: line-through;
+    color: #555;
+}
+#goodTools .product .price {
+    color: var(--primaryColor);
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+    text-align: left;
+}
+/* packingList */
+#packingList {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-bottom: .5px solid #ccc;
+    text-align: center;
+}
+#packingList .title h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: inline-block;
+    word-spacing: 2px;
+    color: #000;
+    border-bottom: 2px solid var(--primaryColor);
+}
+#packingList .title .go h2:hover {
+    color: var(--primaryColor);
+}
+#packingList .col-d-3 .btn {
+    color: var(--primaryColor);
+    float: right;
+    font-size: 20px;
+    padding: 20px 70px 25px 0px ;
+}
+#packingList .col-d-3 {
+    height: 100%;
+}
+#packingList .dp {
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 200;
+    text-align: left;
+    padding-top: 5px;
+}
+#packingList .dp:hover {
+    color: var(--primaryColor);
+}
+#packingList .price {
+    color: #7e7e7e;
+    padding: 15px 0;
+    font-weight: 500;
+}
+#packingList .col-d-1 {
+    line-height: 250px;
+    font-size: 25px;
+    color: #bbbbbb;
+}
+#packingList .moreLeft {
+    padding-left: 70px;
+}
+#packingList .moreRight {
+    padding-right: 70px;
+}
+#recent {
+    padding: 30px 0;
+    /* border-bottom: .5px solid #ccc; */
+    text-align: center;
+}
+#recent h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: inline-block;
+    word-spacing: 2px;
+    color: #000;
+    border-bottom: 2px solid var(--primaryColor);
+}
+/* email */
+#email {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(170, 170, 170, .1);
+}
+#email h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#email form .formcontrol {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    line-height: 30px;
+}
+#email .formcontrol input[type="email"] {
+    font-size: 8px;
+    /* color: rgb(189, 189, 189); */
+    border-style: none;
+    margin: 10px 100px 10px 0;
+}
+#email input[type="email"]::-webkit-input-placeholder {
+    color: #aaa;
+}
+#email input[type="text"] {
+    width: 120px;
+    text-align: center;
+    float: right;
+    background-color: rgb(34, 34, 34);
+    padding: 10px 0;
+    cursor:pointer;
+    border-style: none;
+    border-radius: 3px;
+    margin: 2px;
+}
+#email input[type="text"]::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.685);
+}
+/* #email .formcontrol  span {
+    background-color: rgb(48, 48, 48);
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 5px;
+    word-spacing: 3px;
+    font-size: 8px;
+} */
+/* information */
+#information {
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: .5px solid #aaa;
+}
+#information  .col-d-3 {
+    text-align: left;
+}
+#information h3 {
+    font-size: 8px;
+    padding: 10px 0;
+}
+#information li p {
+    font-size: 6px;
+    padding: 5px 0;
+    color: #aaa;
+}
+#information li .btn {
+    font-size: 6px;
+    padding: 5px 0;
+    color: #aaa;
+}
+#information li a i {
+    font-size: 30px;
+    padding: 5px 3px 5px 0;
+}
+#information li a .line {
+    /* padding-top: 10px; */
+    /* height: 30px; */
+    line-height: 30px;
+}
+#information li a .appstore {
+    height: 30px;
+}
+/* footer */
+footer {
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+}
+footer .bankco a i{
+    color: #666;
+    padding: 5px;
+    font-size: 30px;
+}
+footer .copyright {
+    font-size: 8px;
+    font-weight: 100;
+    color: #aaa;
+}
+/* else */
+.toTop {
+    display: inline-block;
+    text-align: center;
+    /* float: right; */
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #333333;
+}
+.talkTome {
+    display: inline-block;
+    position: fixed;
+    right: 5px;
+    bottom: 0;
+    background-color: rgb(47, 211, 203);
+    padding: 0 5px 0 0;
+    line-height: 15px;
+    border-radius: 5px 5px 0 0;
+}
+.talkTome i {
+    color: #fff;
+    border-radius: 5px 0 0 0;
+    padding: 5px;
+    background-color: rgb(0, 171, 214);
+}
+.talkTome span {
+    display: inline-block;
+    padding-left: 5px;
+    color: #fff;
+}
