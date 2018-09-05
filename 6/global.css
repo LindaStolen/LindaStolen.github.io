@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Hind+Madurai:300,400,500,600,700|IBM+Plex+Sans:100,100i,300,400,500,600,700');
+
+html,body,h1,h2,h3,h4,h5,h6,ul,li,p {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans","Hind Madurai";
+}
+.full-width {
+    width: 100%;
+    /* height: 600px; */
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    /* color: #ffffff; */
+}
+img {
+    width: 100%;
+}

@@ -1,0 +1,334 @@
+.full-width {
+    width: 100%;
+}
+
+.fixed-width {
+    width: 1200px;
+    margin: auto;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+}
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+.col-3 {
+    width: calc(100% / 12 * 3)
+}
+.col-4 {
+    width: calc(100% / 12 * 4)
+}
+.col-5 {
+    width: calc(100% / 12 * 5)
+}
+.col-6 {
+    width: calc(100% / 12 * 6)
+}
+.col-7 {
+    width: calc(100% / 12 * 7)
+}
+.col-8 {
+    width: calc(100% / 12 * 8)
+}
+.col-9 {
+    width: calc(100% / 12 * 9)
+}
+.col-10 {
+    width: calc(100% / 12 * 10)
+}
+.col-11 {
+    width: calc(100% / 12 * 11)
+}
+.col-12 {
+    width: calc(100% / 12 * 12)
+}
+[class*="col"] {
+    float: left;
+    padding: 15px;
+}
+header {
+    background-image: url("images/4-1.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 600px;
+    text-align: center;
+}
+
+nav {
+    height: 50px;
+    position: fixed;
+}
+nav a {
+    color: #fff;
+}
+nav .logo {
+    width: 80px;
+    height: 50px;
+    /* background-color: #020486; */
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.logo a {
+    font-family: "Hind Madurai";
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+nav ul {
+    list-style: none;
+    float: right;    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    line-height: 50px;
+    transition: all .4s;
+}
+nav ul li:hover {
+    text-decoration: underline;
+}
+.word {
+    padding: 250px;
+}
+.w-1 {
+    font-size: 45px;
+    font-family: "Dancing Script";
+    letter-spacing: 3px;
+    color: rgb(231, 177, 0);
+}
+h1 {
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-weight: 700;
+}
+p {
+    font-size: 15px;
+    font-family: "IBM Plex Sans";
+    word-spacing: 8px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+/* ourStory */
+#ourStory {
+    /* height: 600px; */
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#ourStory .col-6 {
+    height: 400px;
+    float: left;
+    /* margin-top: 100px; */
+    text-align: center;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    overflow: hidden;
+}
+#ourStory h1 {
+    letter-spacing: 6px;
+    color: #000;
+    font-weight: 700;
+}
+#ourStory i{
+    line-height: 100px;
+    color: #bbb;
+}
+#ourStory p {
+    line-height: 25px;
+    color: #000;
+}
+#ourStory a {
+    color: #aaa;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+/* tasteful */
+#tasteful {
+    background-image: url(images/tart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tasteful .fixed-width {
+    padding: 250px;
+    text-align: center;
+}
+#tasteful h1 {
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: hoff voff blur rgb(75, 75, 75);
+}
+
+/* menu */
+#menu {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#menu .col-6 {
+    /* height: 400px; */
+    /* float: left; */
+    /* margin-top: 100px; */
+    text-align: center;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* font-size: 0px; */
+}
+#menu .col-3 {
+    /* width: 300px; */
+    /* height: 200px; */
+    /* padding: 8px; */
+    /* display: inline-block; */
+    /* overflow: hidden; */
+}
+#menu h1 {
+    letter-spacing: 6px;
+    font-size: 35px;
+    color: #000;
+    font-weight: 700;
+}
+#menu i{
+    line-height: 100px;
+    font-size: 16px;
+    color: #bbb;
+}
+#menu p {
+    line-height: 25px;
+    color: #000;
+}
+#menu a {
+    color: #aaa;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+/* The perfcet */
+#thePerfect {
+    background-image: url(images/berrypie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#thePerfect .fixed-width {
+    padding: 280px;
+    text-align: center;
+}
+#thePerfect h1 {
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-weight: 700;
+}
+/* culinary */
+#culinary {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    position: relative;
+}
+#culinary .col-6 {
+    text-align: center;
+}
+#culinary h1 {
+    color: #000;
+}
+#culinary .col-6 i {
+    line-height: 100px;
+    color: #bbb;
+}
+#culinary p {
+    color: #000;
+    line-height: 25px;
+}
+#culinary a {
+    text-decoration: underline;
+    line-height: 50px;
+    color: #aaa;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#culinary .col-12 {
+    text-align: center;
+    
+}
+#culinary .top {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 8px;
+    /* line-height: 3px; */
+    text-align: center;
+
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+
+
+}
+#culinary .top a {
+    color: #000;
+    text-decoration: none;
+    margin: 7px;
+}
+#culinary .top i {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000;
+}
+
+/* information */
+#information {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+#information h3 {
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+/* #information .col-6 {
+    padding: 0;
+    color: #fff;
+} */
+
+#information .col-4 {
+    padding: 0;
+    line-height: 25px;
+}
+/* footer */
+#footer {
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    background-color: #4b4b4b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+}
+.col-7 p {
+    line-height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.col-5 p {
+    float: right;
+}
+#footer a {
+    color: #fff;
+}
