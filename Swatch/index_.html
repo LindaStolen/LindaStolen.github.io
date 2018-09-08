@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/global_L.css"> -->
+    <!-- <link rel="stylesheet" href="css/0902.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/0902.css">
+</head>
+<body>
+    <div id="header" class="container-fluid">
+        <div  id="top" class="container">
+            <div class="row small">
+                <div class="col-sm-2 info">
+                    <p class="mb-0 ml-sm-3">ⓒ494 beats</p>
+                </div>
+                <div class="col-sm-10 tel">
+                    <p class="d-inline-block">全站免運費-客服專線0800-508-111(周一至周五10:00-18:00)</p>
+                    <a href="#" class="countryChange d-inline-block float-right text-dark">
+                        <img src="images/Taiwan_small.png">
+                        變更地區
+                    </a>
+                </div>
+            </div>
+            <div class="row bg-light py-sm-0 pl-sm-3">
+                <div class="nav-brand nav-light bg-light my-3">
+                    <a href="#" class="nav-link text-dark h2 mb-sm-0">swatch<i class="fas fa-plus-square fa-sm text-danger ml-sm-1"></i></a>
+                </div>
+            <ul class="nav bg-light">
+                <li class="nav-item">
+                  <a class="nav-link my-4 mx-1 text-secondary" href="#">女錶</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link my-4 mx-1 text-secondary" href="#">男錶</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link my-4 mx-1 text-secondary" href="#">兒童錶</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link my-4 mx-1 text-secondary" href="#">腕錶</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link my-4 mx-1 text-secondary" href="#">系列</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="輸入搜尋">
+                <button class="btn bg-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="nav ml-auto">
+                <li class="nav-item pt-sm-4"><a href="#" class="nav-link btn">
+                    <i class="fas fa-user fa-lg text-muted"></i>
+                </a></li>
+                <li class="nav-item pt-sm-4"><a href="#" class="nav-link btn">
+                    <i class="fas fa-shopping-cart fa-lg text-muted"></i>
+                </a></li>
+            </ul>
+            </div>
+            <!-- 跑馬燈 -->
+            <div id="Second" class="row">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://source.unsplash.com/random/1200x650?sig=1" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block btn text-left">
+                                <p class="text-danger mb-0" ><span class="bg-light p-1 d-inline-block" style="width: 250px">地中海度假風情</span></p>
+                                <p class="text-white bg-danger p-1 d-inline-block" style="width: 250px">早秋新品現正首賣</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="https://source.unsplash.com/random/1200x650?sig=2" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block btn text-center">
+                                <p class="text-danger text-center font-weight-bold bg-light p-1 d-inline-block" style="width: 250px">|官網獨家|春夏新品首賣</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="https://source.unsplash.com/random/1200x650?sig=3" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block btn text-left">
+                                <p class="text-white bg-danger p-1 d-inline-block" style="width: 250px">{超薄金屬錶} 時尚舒適兼具</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <!-- 靠真正作用的是上面的a啊!裡面就是裝飾品 -->
+                        <i class="fas fa-chevron-left fa-4x" style="color: rgb(255, 255, 255);"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <i class="fas fa-chevron-right fa-4x" style="color: rgb(255, 255, 255);"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>                
+            </div>
+            <!-- 商品 -->
+            <div class="row" id="catelog">
+                <!-- 三小格 -->
+                <div class="card-deck my-3">
+                    <div class="col-md-4 p-0">
+                        <div class="card">
+                            <a href="#" class="card-link">
+                                <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=1" alt="Card image cap">
+                                <div class="card-body p-1">
+                                    <p class="card-title text-dark mb-0">女錶</p>
+                                    <p class="card-text text-muted">一秒變網美!夏日搶鏡女錶特輯</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-0">
+                        <div class="card">
+                            <a href="#" class="card-link">
+                                <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=2" alt="Card image cap">
+                                <div class="card-body p-1">
+                                    <p class="card-title text-dark mb-0">男錶</p>
+                                    <p class="card-text text-muted">型男狂推! 大勢時尚潮帥錶</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-0">
+                        <div class="card">
+                            <a href="#" class="card-link">
+                                <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=3" alt="Card image cap">
+                                <div class="card-body p-1">
+                                    <p class="card-title text-dark mb-0"><B>BACK TO SCHOOL</B>開學季</p>
+                                    <p class="card-text text-muted">新學期戴新錶!令人眼睛一亮的男錶,女錶,童錶大集合</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 一大四小 -->
+                <div class="card-deck mt-3">
+                    <div class="col-md-4 p-0">
+                    <div class="card">
+                        <img class="card-img-top" src="https://source.unsplash.com/random/350x520" alt="Card image cap">
+                        <div class="card-body p-1">
+                            <p class="card-title text-dark mb-0"><B>BACK TO SCHOOL</B>開學季</p>
+                            <p class="card-text text-muted">新學期戴新錶!令人眼睛一亮的男錶,女錶,童錶大集合</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 p-0">
+                    <div class="card mb-3">
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=4" alt="Card image cap">
+                            <div class="card-body p-1">
+                                <p class="card-title text-dark mb-0"><B>BACK TO SCHOOL</B>開學季</p>
+                                <p class="card-text text-muted">新學期戴新錶!令人眼睛一亮的男錶,女錶,童錶大集合</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=5" alt="Card image cap">
+                            <div class="card-body p-1">
+                                <p class="card-title text-dark mb-0"><B>BACK TO SCHOOL</B>開學季</p>
+                                <p class="card-text text-muted">新學期戴新錶!令人眼睛一亮的男錶,女錶,童錶大集合</p>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="col-md-4 p-0">
+                    <div class="card mb-3">
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=6" alt="Card image cap">
+                            <div class="card-body p-1">
+                                <p class="card-title text-dark mb-0"><B>BACK TO SCHOOL</B>開學季</p>
+                                <p class="card-text text-muted">新學期戴新錶!令人眼睛一亮的男錶,女錶,童錶大集合</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card-link">
+                            <img class="card-img-top" src="https://source.unsplash.com/random/350x200?sig=7" alt="Card image cap">
+                            <div class="card-body p-1">
+                                <p class="card-title text-dark mb-0"><B>BACK TO SCHOOL</B>開學季</p>
+                                <p class="card-text text-muted">新學期戴新錶!令人眼睛一亮的男錶,女錶,童錶大集合</p>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SWATCHxYOU -->
+            <div id="video" class="row bg-light my-4 py-5">
+                <div class="col-md-7 px-4">
+                        <iframe class="p-4" width="100%" height="315" src="https://www.youtube.com/embed/gBrukpzy-4o?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="text col-md-5 px-5 pt-3">
+                    <!-- <div class="text d-flex"> -->
+                    <h5 class="my-4">SWATCHxYOU</h5>
+                    <p class="text-muted my-4">Swatch X You 訂製系列，新款上市。<br>
+                       更多配件選擇，引爆你的設計魂！</p>
+                    <p class="text-muted my-4">獨一無二不撞錶，送禮自用兩相宜。</p>
+                    <!-- <div id="designYourswatch" class="text-link d-inline-block p-3 mt-4" style="width: 280px;"> -->
+                    <a href="#" class="text-white font-weight-bold">
+                        <div id="designYourswatch" class="d-inline-block p-3 mt-4" style="width: 280px;"> 立即設計你的專屬SWATCH</div>
+                    </a>
+                </div>
+                    <!-- </div> -->
+            </div>
+            <!-- server -->
+            <div id="serviver" class="row bg-light my-4 py-4">
+                <div class="col-md-2 py-4 text-center" id="icon">
+                    <a href="#" class="btn"><i class="fas fa-plus fa-2x pt-2 text-muted"></i>
+                    <p class="text-muted small my-2">瑞士製造</p></a>
+                </div>
+                <div class="col-md-2 icon py-4 text-center" id="icon">
+                    <a href="#" class="btn"><i class="fas fa-retweet fa-2x pt-2 text-muted"></i>
+                        <p class="text-muted small my-2">退貨服務</p></a>
+                </div>
+                <div class="col-md-2 icon py-4 text-center" id="icon">
+                    <a href="#" class="btn"><i class="fas fa-box fa-2x pt-2 text-muted"></i>
+                        <p class="text-muted small my-2">快速物流</p></a>
+                </div>
+                <div class="col-md-2 icon py-4 text-center" id="icon">
+                    <a href="#" class="btn"><i class="fas fa-lock fa-2x pt-2 text-muted"></i>
+                        <p class="text-muted small my-2">DR.SWATCH</p></a>
+                </div>
+                <div class="col-md-2 icon py-4 text-center" id="icon">
+                    <a href="#" class="btn"><i class="fas fa-heart fa-2x pt-2 text-muted"></i>
+                        <p class="text-muted small my-2">商品保固</p></a>
+                </div>
+                <div class="col-md-2 icon py-4 text-center" id="icon">
+                    <a href="#" class="btn"><i class="fas fa-smile fa-2x pt-2 text-muted"></i>
+                        <p class="text-muted small my-2">七日鑑賞期</p></a>
+                </div>
+            </div>
+            <!-- message -->
+            <div id="message" class="row my-4 p-0">
+                <div class="col-md-8 px-0 pr-3" style="height: 500px;">
+                    <div class="box1 bg-white py-3 px-5 mb-4 float-left" style="width:100%;">
+                    <ul class="list-group list-group-flush float-left pr-2">
+                        <li class="list-group-item h5">最新系列</li>
+                        <a href="#"><li class="list-group-item text-muted small">Think Fun</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">SKIN IRONY 超薄金屬錶</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Worldhood 世界巡禮</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">情迷地中海</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Time to Swatch</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Brit-in</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Sistem51 Originals</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Sistem51 Irony</li></a>
+                    </ul>
+                    <ul class="list-group list-group-flush float-left pr-2">
+                        <li class="list-group-item h5">特別推薦款</li>
+                        <a href="#"><li class="list-group-item text-muted small">開學季精選</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Summer Selection 夏日精選</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Swatch x you 訂製系列</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">藝術聯名錶款</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">Studio Job街頭龐克聯名款</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">SWATCH UGO 35周年紀念錶</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">2018 CLUB會員錶</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">MAXI大錶(官網獨家)</li></a>
+                    </ul>
+                    <ul class="list-group list-group-flush float-left">
+                        <li class="list-group-item h5">搜尋條件</li>
+                        <a href="#"><li class="list-group-item text-muted small">男錶</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">女錶</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">小男生</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">小女生</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">新上市</li></a>
+                        <a href="#"><li class="list-group-item text-muted small">人氣熱賣</li></a>
+                    </ul>
+                    </div>
+                    <div id="watchOnswatch" class="bg-light float-left p-4" style="width: 100%;">
+                        <div class="col-md-6 link float-left">
+                            <h5 class="font-weight-bold small">關注SWATCH</h5>
+                            <span>
+                                <a href="#"><i class="fab fa-facebook-f fa-lg m-2 text-muted"></i></a>
+                                <a href="#"><i class="fab fa-twitter fa-lg m-2 text-muted"></i></a>
+                                <a href="#"><i class="fab fa-youtube fa-lg m-2 text-muted"></i></a>
+                                <a href="#"><i class="fab fa-instagram fa-lg m-2 text-muted"></i></a>
+                            </span>
+                        </div>
+                        <div class="col-md-6 email float-left">
+                            <h5 class="font-weight-bold mb-0 small">電子報</h5>
+                            <p class="small text-muted">網路首賣, 新品上市等最新消息不漏接</p>
+                            <a href="#" class="getnews btn d-block text-white bg-danger text-center">立即訂閱</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 px-0 pl-2 bg-light" style="height: 600px;">
+                    <div id="list" class="p-3">
+                        <ul class="list-group list-group-flush d-inline-block pr-5" style="width: 220px;">
+                            <li class="list-group-item h5">產品使用</li>
+                            <a href="#"><li class="list-group-item text-muted small">聯繫我們</li></a>
+                            <a href="#"><li class="list-group-item text-muted small">客服中心</li></a>
+                            <a href="#"><li class="list-group-item text-muted small">使用說明</li></a>
+                        </ul>
+                        <a href="#" id="bottom" class="btn-sm bg-dark text-white small pr-5 py-2">常見問答</a>
+                    </div>
+                    <div id="list" class="px-3">
+                        <ul class="list-group list-group-flush d-inline-block pr-5"style="width: 220px;">
+                            <li class="list-group-item h5">線上購物</li>
+                            <a href="#"><li class="list-group-item text-muted small">出貨與退貨</li></a>
+                            <a href="#"><li class="list-group-item text-muted small">銷售條款</li></a>
+                        </ul>
+                        <a href="#" id="bottom" class="btn-sm bg-dark text-white pr-5 py-2">商品保固</a>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div id="footer" class="row bg-light p-4">
+                <div id="nav" class="about col-md-12 text-center">
+                    <p class="d-inline-block pb-0">
+                        <a href="#" class="btn-sm text-muted border-right">訂閱電子報</a>
+                        <a href="#" class="btn-sm text-muted border-right">客服中心</a>
+                        <a href="#" class="btn-sm text-muted border-right">使用說明</a>
+                        <a href="#" class="btn-sm text-muted border-right">門市位置</a>
+                        <a href="#" class="btn-sm text-muted border-right">使用者條款</a>
+                        <a href="#" class="btn-sm text-muted border-right">隱私權政側</a>
+                        <a href="#" class="btn-sm text-muted ">JOBS</a>
+                    </p>
+                </div>
+                <div class="col-md-12 text-center">
+                    <p class="small text-muted text-center pb-0">© <a href="#" class="text-muted">SWATCH</a> AG 2018, ALL RIGHTS RESERVED: SWISS WATCHES</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

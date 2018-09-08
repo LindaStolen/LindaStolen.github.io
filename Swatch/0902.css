@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700|Poppins:300,400,500,700');
+
+* {
+    font-family: "Cabin","Poppins","微軟正黑體" ;
+}
+#header {
+    background-color: #eeeeee;
+}
+input .form-control[type="search"]::-webkit-input-placeholder {
+    padding-left: 80px;
+}
+.carousel-control-next-iocn {
+    font-size: 20%;
+}
+
+/* #catelog .card::after {
+    border-bottom: 2px solid #e00;
+} */
+#catelog a:hover {
+    border-bottom: 2px solid #e00;
+}
+
+#video #designYourswatch {
+    background-color: rgb(255, 11, 11);
+}
+
+#video a #designYourswatch:hover {
+    background-color: rgb(255, 217, 0)!important;
+}
+
+#serviver #icon :hover {
+    color: #e00!important;
+}
+#watchOnswatch .email a:hover {
+    background-color: #ccc!important;
+} 
+#list #bottom:hover {
+    background-color: rgb(175, 175, 175)!important;
+    text-decoration: none!important;
+}
