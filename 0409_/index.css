@@ -1,0 +1,237 @@
+.full-width {
+    width: 100%;
+}
+.fixed-width {
+    width: 1200px;
+    margin: auto;
+}
+.col-1 {
+    width: calc(100% / 12 * 1);
+}
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+/*
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+    float: left;
+    padding: 15px;
+}*/
+
+[class^="col"] {
+    float: left;
+    padding: 15px;
+}
+/*標籤選取器:開頭有"___"的class*/
+
+nav {
+    height: 100px;
+    background-color: #ffc0c0;
+}
+
+nav .logo {
+    float: left;
+    width: 100PX;
+    text-align: center;
+
+}
+nav .logo a {
+    font-weight: 700;
+    line-height: 100px;    
+}
+nav .menu {
+    float: right;
+}
+nav .menu li {
+    float: left;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav .menu a {
+    line-height:100px;    
+}
+/* features */
+header {
+    background-image: url(images/001.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: #1b1b1b;
+    display: flex;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+/* header h1 {
+    margin-top: 70px;
+} */
+header p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header a {
+    color: #ffffff;
+}
+.btn {
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+    background-color: #2e2e2e;
+    border: 0px;
+    color: #ffffff;
+}
+#features {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #ccc;
+}
+#features .col-6 {
+    margin: auto;
+    float:none;
+}
+#features .fa {
+    display: inline-block;
+    width: 120px;
+    height: 120PX;
+    background-color: #6b0031;
+    line-height: 120px;
+    text-align: center;
+    border-radius: 50%;color: #ffffff;
+    font-size: 65px;
+    margin: 50px;
+}
+#gallery {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #eee;
+}
+#gallery .col-6 {
+    margin: auto;
+    float: none;
+}
+#price {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #ffffff;
+}
+#price .col-6 {
+    margin: auto;
+    float: none;
+    margin-bottom: 50px;
+}
+#price .pricing-title {
+    background-color: #0ad;
+    padding: 15px;
+    border-radius: 5px;
+}
+#price li {
+    list-style: none;
+    padding: 15px;
+    background-color: #eee;
+}
+#price li:nth-last-of-type(2n){
+    background-color: #ddd;
+}
+#price a {
+    color: #fff;
+}
+#introduce {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #eee;
+}
+#introduce .col-6 {
+    margin: auto;
+    float: none;
+}
+#introduce .introduce-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+#introduce h3,#introduce h4  {
+    margin: 20px 0px;
+}
+#contactus {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#contactus .col-6{
+    float: none;
+    margin: auto;
+    /* margin-top: 150px; */
+    text-align: center;
+}
+.form-control {
+    margin: 10px 0px;
+}
+#contactus li {
+    padding: 5px 0;
+    list-style: none;
+}
+#contactus .col-4 li i {
+    padding: 0 5px 0 0;
+}
+input:not([type="submit"]),textarea {
+    padding: 7px;
+    width: 200px;
+    outline: 0;
+    border:1px solid transparent;
+    background-color: #eee;
+    transition: all .3s;
+} 
+input:not([type="submit"]):focus,textarea:focus {
+    background-color: rgb(208, 223, 189);
+}
+textarea {
+    resize: none;
+    height: 120px;
+}
+footer .col-6{
+    text-align: center;
+    float: none;
+    margin: auto;
+}
+footer .col-6 a {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
