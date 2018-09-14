@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 * {
     box-sizing: border-box;
+    font-family: "Playfair Display";
 }
 /* grid */
 @media screen and (min-width:480px) {
@@ -143,28 +145,77 @@ a {
     color: #555555;
 }
 
-.container {
-    /* background-image: linear-gradient(45deg#eeeeee,#aa0077); */
-    /* height: 700px; */
+#container {
+    /* background-image: url(images/lendingpage_s.png),
+        linear-gradient(#bbbbbb,#000);
+    background-size: 50%;
+    background-position: left;
+    background-repeat: no-repeat; */
+
+    height: 700px;
+}
+#container .s_color {
+    width: 650px;
+    height: 150px;
+    position: fixed;
+    background-color: rgba(233, 187, 160, 0.603);
+    right: 0;
+    top: 350px;
 }
 
-.galGadot {
-    width: 530px;
-    float: left;
-    box-shadow: 2px 3px #bbb;
+/* #content::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+} */
+
+#penrose {
+    /* float: left; */
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    background-image: url(images/lendingpage_s.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    margin-top: 35px;
+    display: inline-block;
 }
 
-h3 {
-    color: #007185;
-    font-size: 35px;
-    border-left: 1.5px solid rgb(173, 173, 173); 
+#text {
+    /* display: inline-block; */
+    position: relative;
+}
+
+#text .space{
+    /* float: right; */
+    /* margin-right: 30px; */
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+#text h3 {
+    font-size: 38px;
+    color: rgb(61, 33, 0);
     padding-left: 10px;
+    border-left: 9px rgb(61, 33, 0) double;
     margin-bottom: 15px;
     letter-spacing: 2px;
+    text-shadow: 1px 2px #ccc;
 }
-#text {
-    padding: 200px 0 0 150px;
-}
-ul li{
 
+#text .space li a {
+    padding-left: 15px;
+    color: rgb(124, 56, 11);
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+
+#text .space a:hover {
+    color: rgb(0, 148, 111);
+    border-bottom: 1px solid #bbb; 
 }
